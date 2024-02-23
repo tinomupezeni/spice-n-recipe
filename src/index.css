@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300;1,400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Eczar", serif;
+  font-family: "Poppins", sans-serif;
+  background: rgb(113, 7, 7);
+  background: radial-gradient(
+    circle,
+    rgba(113, 7, 7, 0.5017482517482518) 0%,
+    rgba(232, 233, 148, 0.6538461538461539) 100%
+  );
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  text-transform: capitalize;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
