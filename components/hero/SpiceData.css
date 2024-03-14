@@ -1,0 +1,19 @@
+.category .spice {
+  text-align: start;
+  padding: 5px;
+  margin: 2px 0;
+  border-radius: 5px;
+}
+.category .spice h4 {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.category .spice p {
+  padding: 2px 0;
+}
+
+.category .spice div {
+  border: 1px solid #00000073;
+  width: 60%;
+}
