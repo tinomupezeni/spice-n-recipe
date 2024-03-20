@@ -9,7 +9,7 @@
   align-items: center;
   padding: 0 10px;
 }
-.navbar button a {
+.navbar button {
   text-decoration: none;
   color: #fff;
   padding: 10px;
@@ -36,6 +36,24 @@
   width: 100%;
 }
 
+/* ai */
+.ai-chat {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  /* height: calc(70 * var(--vh)); */
+}
+
+.ai-container {
+  height: 400px;
+  overflow-y: scroll;
+}
+
 @media screen and (max-width: 850px) {
   .navbar {
     width: 100%;
@@ -49,7 +67,24 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .navbar{
+  .navbar {
     justify-content: space-between;
- }
+  }
+  .ai-chat {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 91.5%;
+    margin-bottom: 0;
+  }
+  .ai-container {
+    height: 100%;
+    overflow-y: scroll;
+  }
 }
